@@ -15,13 +15,21 @@
   top: 0;
   position: fixed;
   z-index: 999;
-  background-color: #0b6a82;
+  background-color: #66BB6A;
   border-color: #707070;
   border-width: 1px;
   overflow-x: hidden;
   width: 100%;
-  height: 68px;
-  padding: 0px 2vw;
+  height: 70px;
+  padding: 6px 2vw;
+}
+
+.mat-grid-tile {
+  border: 0px #000;
+  margin: 0px;
+  padding: 0px;
+  border-spacing: 0px;
+  box-sizing: content-box;
 }
 
 .header--logo {

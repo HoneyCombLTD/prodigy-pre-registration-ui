@@ -10,6 +10,7 @@ import {
   MatIconModule,
   MatInputModule,
   MatListModule,
+  MatGridListModule,
   MatProgressSpinnerModule,
   MatRadioModule,
   MatSelectModule,
@@ -24,6 +25,9 @@ import {
 import { NgxMatSelectSearchModule } from 'ngx-mat-select-search';
 import {MatSnackBarModule} from '@angular/material/snack-bar';
 @NgModule({
+  imports: [
+    MatGridListModule
+  ],
   exports: [
     MatButtonModule,
     MatButtonToggleModule,
@@ -33,6 +37,7 @@ import {MatSnackBarModule} from '@angular/material/snack-bar';
     MatIconModule,
     MatInputModule,
     MatListModule,
+    MatGridListModule,
     MatProgressSpinnerModule,
     MatRadioModule,
     MatSelectModule,

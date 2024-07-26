@@ -3,10 +3,10 @@
   justify-content: center;
   font-family: Roboto, sans-serif;
   font-size: 12px;
-  padding-top: 10px;
-  padding-bottom: 0px;
+  padding-top: 8px;
+  padding-bottom: 8px;
   position: fixed;
-  bottom: -9px;
+  bottom: -5px;
   width: 100%;
   z-index: -1;
   margin-bottom: 2px;
@@ -18,4 +18,22 @@
   font-family: "Roboto", sans-serif;
   font-weight: 100;
   display: block;
+}
+
+.wrapper {
+  background: transparent !important;
+  color: lightslategray !important;
+  text-align: center;
+  vertical-align: auto;
+}
+.prodigy_logo {
+  height: 30px;
+  display: inline-block;
+}
+.footer-text {
+  display: inline-block;
+  text-align: left;
+  text-transform: uppercase;
+  margin-left: 1em;
+  margin-bottom: 1px;
 }

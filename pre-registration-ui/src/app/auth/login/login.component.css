@@ -7,6 +7,25 @@
   flex-direction: column;
   align-items: center;
 }
+.form_fields_wrapper {
+  border: 1px solid var(--bg-grey);
+  background: #EEEEEE;
+  border-radius: 3px;
+  padding: 4px 10px;
+  margin-top: 3rem;
+}
+
+.name_label {
+  margin-bottom: 1em;
+  font-size: 00.8rem;
+  text-transform: uppercase;
+  text-align: start;
+  font-weight: 600;
+  color: var(--bg-primary) !important;
+}
+.label_field {
+  margin-bottom: 1.5rem !important;
+}
 
 .spacing {
   margin-top: 20%;
@@ -26,9 +45,10 @@
 }
 
 .form_wrapper {
-  margin: 4% 0%;
+  margin: 2% 0%;
   line-height: 2rem;
-  height: 64vh;
+  height: 54vh;
+  text-align: center;
 }
 
 .form_fields_padding {
@@ -38,16 +58,21 @@
 }
 
 .heading {
-  font-size: 1.5rem;
+  font-size: 1rem;
   text-align: center;
   font-weight: 600;
   
 }
 
+.form-group {
+  text-align: left;
+}
+
 .subHeading {
-  font-size: 1.2rem;
+  font-size: 0.75rem;
   text-align: center;
-  font-weight: 250;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 mat-form-field {
@@ -57,7 +82,7 @@ mat-form-field {
 }
 
 .pinkBg {
-  background-color: #fe528d;
+  background-color: #66BB6A;
 }
 .whiteText {
   color: white;
@@ -80,6 +105,11 @@ button {
   padding: 8px;
   visibility: hidden;
 }
+.stepsLink {
+  margin-top: 0px;
+  text-align: center;
+}
+
 ::ng-deep .mat-form-field-appearance-outline .mat-form-field-outline {
   color: lightgrey;
 }

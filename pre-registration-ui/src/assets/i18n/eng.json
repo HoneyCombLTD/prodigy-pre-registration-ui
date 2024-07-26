@@ -279,9 +279,10 @@
     "link_login": "LOGIN"
   },
   "login": {
-    "text": "Quick & Easy steps",
-    "sub_text": "Pre-register for",
-    "sub_text_UID": "Unique Identification Number",
+    "system_name": "NATIONAL ID REGISTRATION PLATFORM",
+    "text": "Pre-registration steps",
+    "sub_text": "Pre-registration for",
+    "sub_text_UID": "National Identification Number (NIN)",
     "label_email_num": "Email ID or Phone Number",
     "label_otp": "Enter OTP",
     "action_send": "Send OTP",
