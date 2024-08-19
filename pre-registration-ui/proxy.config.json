@@ -1,6 +1,6 @@
 {
     "/proxyapi": {
-      "target": "https://api-internal.techno-associates.live/",
+      "target": "https://onipapi-internal.techno-associates.live/",
       "secure": true,
       "changeOrigin": true,
       "pathRewrite": {

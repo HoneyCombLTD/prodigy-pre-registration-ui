@@ -17,9 +17,11 @@ export class HeaderComponent implements OnInit, OnDestroy {
   subscription: Subscription;
   userPreferredLang: string;
   tiles = [
-    { text: " ", cols: 1, rows: 2, border: "1px", color: "white" },
-    { text: " ", cols: 3, rows: 1, border: "1px double red", color: "#B71C1C" },
-    { text: " ", cols: 3, rows: 1, border: "0px double green", color: "#1B5E20"},
+    { text: " ", cols: 4, rows: 1, border: "1px double blue", color: "#007fff" },
+    { text: " ", cols: 4, rows: 1, border: "1px double yellow", color: "#f7d618" },
+    { text: " ", cols: 4, rows: 1, border: "1px double red", color: "#ce1021" },
+    { text: " ", cols: 4, rows: 1, border: "1px double yellow", color: "#f7d618"},
+    { text: " ", cols: 4, rows: 1, border: "1px", color: "#007fff" },
   ];
   textDir = localStorage.getItem("dir");
   constructor(

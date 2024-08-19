@@ -19,10 +19,10 @@
         <button mat-icon-button (click)="sidenav.toggle()"><mat-icon>menu</mat-icon></button>
       </div>
       <a *ngIf="!authService.isAuthenticated()" href="./" mat-list-item>
-        <img src="assets\logo.png" alt="MOSIP logo" class="header--logo" style="max-height: 40px"/>
+        <img src="assets\onip.svg" alt="MOSIP logo" class="header--logo" style="max-height: 40px"/>
       </a>
       <a *ngIf="authService.isAuthenticated()" (click)="onLogoClick()" mat-list-item>
-        <img src="assets\logo.png" alt="MOSIP logo" class="header--logo" style="max-height: 40px"/>
+        <img src="assets\onip.svg" alt="MOSIP logo" class="header--logo" style="max-height: 40px"/>
       </a>
       <mat-nav-list class="list-item">
         <a mat-list-item routerLink="/about-us">{{ 'header.link_about' | translate }}</a>
@@ -44,7 +44,7 @@
     </mat-toolbar>
     <main class="main">
       <div class="basic-container">
-        <mat-grid-list cols="4" rowHeight="10px">
+        <mat-grid-list cols="4" rowHeight="4px">
           <mat-grid-tile
             *ngFor="let tile of tiles"
             [colspan]="tile.cols"
